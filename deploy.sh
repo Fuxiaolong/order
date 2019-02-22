@@ -5,12 +5,12 @@
 # 项目路径, 在Execute Shell中配置项目路径, pwd 就可以获得该项目路径
 # export PROJ_PATH=这个jenkins任务在部署机器上的路径
 
- export PROJ_PATH=/root/.jenkins/workspace/DeployOrder/
+ export PROJ_PATH=/root/.jenkins/workspace/DeployOrder/order
 
 # 输入你的环境上tomcat的全路径
 # export TOMCAT_APP_PATH=tomcat在部署机器上的路径
 
-  export TOMCAT_APP_PATH=/root/apache-tomcat-8.5.38/
+  export TOMCAT_APP_PATH=/root/apache-tomcat-8.5.38
 
 ### base 函数
 killTomcat()
